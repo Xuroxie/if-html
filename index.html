@@ -90,16 +90,21 @@
         </tr>
     </table>
     <h3>My First Form</h3>
-    <form action="/" method="get">
-        <label for="name">Name</label><br>
-        <input type="text" id="name" name="Name" placeholder="Name" required><br>
-        <label for="email">Email</label><br>
-        <input type="email" id="email" name="email" required><br>
-        <label for="password">Password</label><br>
-        <input type="password" id="password" name="password" required><br>
+    <div>
+        <form action="/" method="get">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="Name" placeholder="Name" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" required>
+    </div>
+    <div>
         <label for="level">Your programming level</label><br>
         <input type="range" id="level" name="level"
                min="1" max="10"><br>
+    </div>
+    <div>
         <p>What does HTML stand for?</p>
         <input type="checkbox" id="HTML1" name="HTML1" value="HTML1">
         <label for="HTML1"> Hyperlinks and Text Markup Language</label><br>
@@ -107,6 +112,8 @@
         <label for="HTML2"> Home Tool Markup Language</label><br>
         <input type="checkbox" id="HTML3" name="HTML3" value="HTML3">
         <label for="HTML3"> Hyper Text Markup Language</label>
+    </div>
+    <div>
         <p>What does HTTP stand for?</p>
         <input type="radio" id="HTTP1" name="HTTP1" value="HTTP1">
         <label for="HTTP1">Hyper Text Translate Protocol</label><br>
@@ -114,18 +121,25 @@
         <label for="HTTP2">Hyper Text Transmission Protocol</label><br>
         <input type="radio" id="HTTP3" name="HTTP3" value="HTTP3">
         <label for="HTTP3">Hyper Text Transfer Protocol</label><br>
+    </div>
+    <div>
         <p>Comment</p>
         <textarea name="Comment" rows="10" cols="30" maxlength="500">
             Comment
-        </textarea><br>
+        </textarea>
+    </div>
+    <div>
         <label for="HTML">What does HTML stand for?</label><br>
         <select name="HTML" id="HTML">
             <option value="Answer1">Your answer</option>
             <option value="Answer2">Hyperlinks and Text Markup Language</option>
             <option value="Answer3">Home Tool Markup Language</option>
             <option value="Answer4">Hyper Text Markup Language</option>
-        </select><br>
+        </select>
+    </div>
+    <div>
         <input type="submit" value="Send">
+    </div>
     </form>
 <hr>
 </body>
