@@ -1,0 +1,148 @@
+
+
+body {
+    background-color: white;
+    background-image: url("img/castelmezzano-19795461.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p {
+    color: white;
+}
+
+
+a {
+    margin-left: 993px;
+    margin-top: 57px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-style: solid;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+label {
+    color: white;
+}
+
+input.destination {
+    width: 467px;
+}
+
+input.date {
+    width: 260px;
+}
+
+button {
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 24px;
+}
+
+img.logo {
+    display: flow;
+    margin-left: 104px;
+    margin-top: 51px;
+}
+
+h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+h2 {
+    color:black;
+    font-weight: bold;
+    font-size: 40px;
+    top: 120px;
+    text-align: center;
+}
+
+
+div.link1 {
+    position: absolute;
+}
+div.link2 {
+    position: absolute;
+    left: 50px;
+}
+div.link3 {
+    position: absolute;
+    left: 150px;
+
+}
+div.link4 {
+    position: absolute;
+    left: 200px;
+}
+
+div.main1 {
+    position: absolute;
+    top: 293px;
+    left: 104px;
+}
+div.main2 {
+    position: absolute;
+    top: 511px;
+    left: 104px;
+}
+
+div.main3 {
+    position: absolute;
+    top: 720px;
+    left: 585px;
+}
+
+.footer {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 900px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+div.wrap1 {
+    position: absolute;
+    left: 215px;
+    top: 275px;
+}
+div.wrap2 {
+    position: absolute;
+    left: 521px;
+    top: 279px;
+}
+div.wrap3 {
+    position: absolute;
+    left: 826px;
+    top: 287px;
+}
+div.wrap4 {
+    position: absolute;
+    left: 1143px;
+    top: 275px;
+}
