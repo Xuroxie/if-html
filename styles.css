@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+input.destination {
+    width: 467px;
+}
+
+input.date {
+    width: 260px;
+}
+
+button {
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 24px;
+}
+
+h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+h2 {
+    margin-bottom: 28px;
+}
+
+#logo {
+    width: 205px;
+    height: 40px;
+    background: transparent url("img/navsprite.png") -250px 0;
+}
+
+#support {
+    width: 914px;
+    height: 92px;
+    background: transparent url("img/navsprite.png") 0 0;
+}
+
+#chat {
+    width: 84px;
+    height: 84px;
+    background: transparent url("img/navsprite.png") -75px 0;
+}
+
+#book {
+    width: 100px;
+    height: 100px;
+    background: transparent url("img/navsprite.png") -159px 0;
+}
+
+#like {
+    width: 92px;
+    height: 84px;
+    background: transparent url("img/navsprite.png") -259px 0;
+}
+
+.top-section {
+    background-color: #10367C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("img/background.jpg");
+}
+
+.main1 {
+    margin-top: 293px;
+    margin-left: 104px;
+}
+
+.main2 {
+    margin-top: 218px;
+    margin-left: 104px;
+}
+
+.main3 {
+    margin-top: 229px;
+    margin-left: 585px;
+}
+
+.offers {
+    background-color: white;
+}
+
+.container {
+    max-width: 1264px;
+    padding: 128px 16px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.item {
+    width: 25%;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title-line {
+    border: none;
+    width: 100px;
+    height: 4px;
+    background-color: #F5BD41;
+    margin: 0 auto 80px;
+}
+
+.icon-wrap {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 48px;
+}
+
+.footer {
+        background-color: #10367C;
+        padding: 10px;
+        text-align: left;
+        color: white;
+    }
+
+nav {
+    display: block;
+}
+
+.menu {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 100px;
+    margin-bottom: 48px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F5BD41;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
