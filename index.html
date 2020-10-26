@@ -1,146 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>ABOUT</title>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-        }
-    </style>
+    <meta name="description" content="Trip House">
+    <meta name="keywords" content="trip, travelling, hotels">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME - Trip House</title>
+    <link href="main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h3> &#127775 Contact with a huge community </h3>
-    <p>Today the web devs community (front &#x002B; back) is very large and some fantastic people are inserted in <br>
-        those communities. Github, forums, Facebook &#x002B; Telegram groups, there are several channels to <br>
-        knowledge's dissemination. It's very difficult to have a doubt or to find a problem which cannot be <br>
-        solved in a short amount time with such quality support.</p>
-    <h3> &#127775 Acknowledgment and feedback </h3>
-    <p>All the development segments have acknowledgement, logically. But I believe that it's such a front-end's <br>
-        glamour &#8210; <strong> the people really view and interact with your stuff. </strong> The users will <br>
-        click the button you've coded, they will like (or not) the website layout, animations and usability &#8210; <br>
-        and at this point the feedback is really fast! &#128522; &#x1F60E;</p>
-    <img src="https://blog.leithbmw.com/wp-content/uploads/2017/09/ThinkstockPhotos-539655748.jpg" alt="Autumn">
-    <ol>
-        <li>Знакомство с Web</li>
-        <ul>
-            <li>Краткая история Web и что такое интернет.</li>
-            <li>Как устроен браузер и как он получает страницы по сети.</li>
-            <li>Что такое Git?</li>
-            <li>Создание первого репозитория.</li>
-            <li>О файле .gitignore.</li>
-        </ul>
-        <li>HTML-вёрстка - первые шаги</li>
-        <ul>
-            <li>Настройка рабочей среды.</li>
-            <li>Краткая история HTML.</li>
-            <li>Какие бывают теги и что такое атрибут.</li>
-            <li>Теги для работы с текстом.</li>
-            <li>Создание собственной страницы.</li>
-        </ul>
-        <li>Погружение в HTML-разметку</li>
-        <ul>
-            <li>Мета-теги.</li>
-            <li>Мнемоники.</li>
-            <li>Тег для работы с изображениями.</li>
-            <li>Теги для работы со списками.</li>
-            <li>Теги для работы с таблицами.</li>
-            <li>Теги для работы с формами.</li>
-            <li>Div-блоки</li>
-        </ul>
-    </ol>
-    <table style="width:100%">
-        <tr>
-            <th>Tag</th>
-            <th>Description</th>
-        </tr>
-        <tr>
-            <td>table</td>
-            <td>Defines a table</td>
-        </tr>
-        <tr>
-            <td>tr</td>
-            <td>Defines a row in a table</td>
-        </tr>
-        <tr>
-            <td>td</td>
-            <td rowspan="2">Defines a "header cell" / "cell" in a table</td>
-        </tr>
-        <tr>
-            <td>th</td>
-        </tr>
-        <tr>
-            <td colspan="2">Rarely used</td>
-        </tr>
-        <tr>
-            <td>caption</td>
-            <td>Defines a table caption</td>
-        </tr>
-        <tr>
-            <td>thead</td>
-            <td>Groups the header content in a table</td>
-        <tr>
-            <td>tbody</td>
-            <td>Groups the body content in a table</td>
-        </tr>
-        <tr>
-            <td>tfoot</td>
-            <td>Groups the footer content in a table</td>
-        </tr>
-    </table>
-    <h3>My First Form</h3>
-    <div>
-        <form action="/" method="get">
-            <label for="name">Name</label><br>
-            <input type="text" id="name" name="Name" placeholder="Name" required><br>
-            <label for="email">Email</label><br>
-            <input type="email" id="email" name="email" required><br>
-            <label for="password">Password</label><br>
-            <input type="password" id="password" name="password" required>
+<div class="header">
+</div>
+<div class="top-section">
+    <h1>Discover stays <br> to live, work or just relax</h1>
+    <div class="label">
+        <label for="destination" style="color: #FFFFFF; margin-right: 221px" >Your destination or hotel name</label>
+        <label for="date" style="color: #FFFFFF">Check-in &mdash; Check-out</label>
     </div>
-    <div>
-        <label for="level">Your programming level</label><br>
-        <input type="range" id="level" name="level"
-               min="1" max="10"><br>
-    </div>
-    <div>
-        <p>What does HTML stand for?</p>
-        <input type="checkbox" id="HTML1" name="HTML1" value="HTML1">
-        <label for="HTML1"> Hyperlinks and Text Markup Language</label><br>
-        <input type="checkbox" id="HTML2" name="HTML2" value="HTML2">
-        <label for="HTML2"> Home Tool Markup Language</label><br>
-        <input type="checkbox" id="HTML3" name="HTML3" value="HTML3">
-        <label for="HTML3"> Hyper Text Markup Language</label>
-    </div>
-    <div>
-        <p>What does HTTP stand for?</p>
-        <input type="radio" id="HTTP1" name="HTTP1" value="HTTP1">
-        <label for="HTTP1">Hyper Text Translate Protocol</label><br>
-        <input type="radio" id="HTTP2" name="HTTP2" value="HTTP2">
-        <label for="HTTP2">Hyper Text Transmission Protocol</label><br>
-        <input type="radio" id="HTTP3" name="HTTP3" value="HTTP3">
-        <label for="HTTP3">Hyper Text Transfer Protocol</label><br>
-    </div>
-    <div>
-        <p>Comment</p>
-        <textarea name="Comment" rows="10" cols="30" maxlength="500">
-            Comment
-        </textarea>
-    </div>
-    <div>
-        <label for="HTML">What does HTML stand for?</label><br>
-        <select name="HTML" id="HTML">
-            <option value="Answer1">Your answer</option>
-            <option value="Answer2">Hyperlinks and Text Markup Language</option>
-            <option value="Answer3">Home Tool Markup Language</option>
-            <option value="Answer4">Hyper Text Markup Language</option>
+    <div class="row">
+        <input type="text" id="destination" name="destination" class="destination">
+        <input type="date" id="date" name="date" class="date">
+        <p><label for="guests"></label></p>
+        <select id="guests" name="guests">
+            <option value="guest1">2 Adults - 0 Children - 1 Room</option>
+            <option value="guest2">2 Adults - 1 Child - 1 Room</option>
+            <option value="guest3">2 Adults - 2 Children - 2 Rooms</option>
+            <option value="guest4">1 Adults - 0 Children - 1 Room</option>
         </select>
+        <button id="button">Search</button>
     </div>
-    <div>
-        <input type="submit" value="Send">
+</div>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="chat" viewBox="0 0 84 84">
+        <path d="M54.5 8.66671V37.8334H13.5417L8.66666 42.7084V8.66671H54.5ZM58.6667 0.333374H4.5C2.20833 0.333374 0.333328 2.20837 0.333328 4.50004V62.8334L17 46.1667H58.6667C60.9583 46.1667 62.8333 44.2917 62.8333 42V4.50004C62.8333 2.20837 60.9583 0.333374 58.6667 0.333374ZM79.5 17H71.1667V54.5H17V62.8334C17 65.125 18.875 67 21.1667 67H67L83.6667 83.6667V21.1667C83.6667 18.875 81.7917 17 79.5 17Z" fill="#3077C6"/>
+    </symbol>
+</svg>
+<div class="offers">
+    <div class="container">
+        <h2 class="text-center">What do we offer</h2>
+        <hr class="title-line">
+        <div class="col-3 text-center">
+            <svg><use href="chat" /></svg>
+            </div>
     </div>
-    </form>
-<hr>
+</div>
+<div class="footer">
+    <nav class="menu">
+        <ul>
+            <li class="title">About</li>
+            <li><a href="">How TripHouse works</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+        </ul>
+    </nav>
+    <nav class="menu">
+        <ul>
+            <li class="title">Property types</li>
+            <li><a href="">Guest Houses</a></li>
+            <li><a href="">Hotels</a></li>
+            <li><a href="">Apartments</a></li>
+            <li><a href="">Villas</a></li>
+            <li><a href="">Holiday homes</a></li>
+            <li><a href="">Hostels</a></li>
+        </ul>
+    </nav>
+    <nav class="menu">
+        <ul>
+            <li class="title">Support</li>
+            <li><a href="">Contact Customer Service</a></li>
+            <li><a href="">FAQ</a></li>
+        </ul>
+    </nav>
+    <span class="footer-text"> &#169; 2020 TripHouse, Inc. All rights reserved</span>
+</div>
 </body>
 </html>
