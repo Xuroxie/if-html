@@ -1,6 +1,6 @@
 :root {
     --col-size: calc(100% / 12);
-    --primary: #3877c6;
+    --primary: #3077C6;
     --primary-dark: #10367c;
     --secondary: #f5bd41;
 
@@ -89,7 +89,14 @@ body {
 }
 
 .row {
-    display: flex;
+    display: inline-flex;
+}
+
+.images {
+    height: 296px;
+    width: 296px;
+    margin-top: 104px;
+    margin-bottom: 24px;
 }
 
 .offers {
@@ -100,6 +107,11 @@ body {
 .container {
     max-width: 1264px;
     margin: 0 170px;
+}
+
+.hotels {
+    background-color: #EAF0F9;
+    padding: 120px 104px;
 }
 
 .footer {
@@ -144,6 +156,10 @@ a:active {
     text-decoration: none;
 }
 
+a.links {
+    color: var(--primary);
+}
+
 .footer-text {
     display: inline-block;
     font-size: 14px;
@@ -162,6 +178,24 @@ h2 {
     font-weight: 500;
     font-size: 40px;
     font-style: normal;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+h2:after {
+    --line-width: 100px;
+    content: '';
+    display: inline-block;
+    width: var(--line-width);
+    height: 4px;
+    background-color: var(--secondary);
+    position: absolute;
+    bottom: -15px;
+    left: calc(50%-var(--line-width) / 2);
+}
+
+p {
+    margin-top: 24px;
 }
 
 .text-center {
@@ -196,17 +230,17 @@ h2 {
     border: none;
 }
 
-#destination {
+.destination {
     width: 467px;
     height: 64px;
 }
 
-#date {
+.date {
     width: 259px;
     height: 64px;
 }
 
-#guests {
+.guests {
     width: 305px;
     height: 64px;
 }
