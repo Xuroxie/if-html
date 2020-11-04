@@ -1,0 +1,246 @@
+:root {
+    --col-size: calc(100% / 12);
+    --primary: #3077C6;
+    --primary-dark: #10367c;
+    --secondary: #f5bd41;
+
+    --primary-text: #383838;
+
+    --gray100: #121212;
+    --gray200: #1d1e1f;
+    --gray300: #4d4d4d;
+}
+
+[class*="col"] {
+    flex-grow: 1;
+    margin: 0 8px;
+}
+.col-1 {width: calc(var(--col-size));}
+.col-2 {width: calc(var(--col-size) * 2);}
+.col-3 {width: calc(var(--col-size) * 3);}
+.col-4 {width: calc(var(--col-size) * 4);}
+.col-5 {width: calc(var(--col-size) * 5);}
+.col-6 {width: 50%;}
+.col-7 {width: calc(var(--col-size) * 7);}
+.col-8 {width: calc(var(--col-size) * 8);}
+.col-9 {width: calc(var(--col-size) * 9);}
+.col-10 {width: calc(var(--col-size) * 10);}
+.col-11 {width: calc(var(--col-size) * 11);}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    :root {
+        --col-size: calc(100% / 12);
+    }
+    .col-1 {width: calc(var(--col-size));}
+    .col-2 {width: calc(var(--col-size) * 2);}
+    .col-3 {width: calc(var(--col-size) * 3);}
+    .col-4 {width: calc(var(--col-size) * 4);}
+    .col-5 {width: calc(var(--col-size) * 5);}
+    .col-6 {width: 50%;}
+    .col-7 {width: calc(var(--col-size) * 7);}
+    .col-8 {width: calc(var(--col-size) * 8);}
+    .col-9 {width: calc(var(--col-size) * 9);}
+    .col-10 {width: calc(var(--col-size) * 10);}
+    .col-11 {width: calc(var(--col-size) * 11);}
+    .col-12 {width: 100%;}
+}
+
+@media only screen and (max-width: 480px) {
+    :root {
+        --col-size: calc(100% / 6);
+    }
+    [class*="col-"] {
+        width: 100%;
+    }
+    .col-1 {width: calc(var(--col-size));}
+    .col-2 {width: calc(var(--col-size) * 2);}
+    .col-3 {width: calc(var(--col-size) * 3);}
+    .col-4 {width: calc(var(--col-size) * 4);}
+    .col-5 {width: calc(var(--col-size) * 5);}
+    .col-6 {width: 50%;} }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-text);
+
+}
+
+body {
+    background-color: var(--primary-dark);
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.top-section {
+    padding: 120px 104px;
+}
+
+.label {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF
+}
+
+.row {
+    display: inline-flex;
+}
+
+.images {
+    height: 296px;
+    width: 296px;
+    margin-top: 104px;
+    margin-bottom: 24px;
+}
+
+.offers {
+    background-color: #FFFFFF;
+    padding: 120px 104px;
+}
+
+.container {
+    max-width: 1264px;
+    margin: 0 170px;
+}
+
+.hotels {
+    background-color: #EAF0F9;
+    padding: 120px 104px;
+}
+
+.footer {
+    background-color: var(--primary-dark);
+    padding: 120px 104px;
+    text-align: left;
+}
+
+nav {
+    display: block;
+}
+.menu {
+    display: inline-flex;
+    width: 30%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 20px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a.links {
+    color: var(--primary);
+}
+
+.footer-text {
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 64px;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 100px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 40px;
+    font-style: normal;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+h2:after {
+    --line-width: 100px;
+    content: '';
+    display: inline-block;
+    width: var(--line-width);
+    height: 4px;
+    background-color: var(--secondary);
+    position: absolute;
+    bottom: -15px;
+    left: calc(50%-var(--line-width) / 2);
+}
+
+p {
+    margin-top: 24px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title-line {
+    border: none;
+    width: 100px;
+    height: 4px;
+    background-color: var(--secondary);
+    margin: 20px auto 80px;
+}
+
+.title {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#chat {
+    color: var(--primary);
+    height: 84px;
+    width: 84px;
+}
+
+#button {
+    background-color: var(--primary);
+    height: 64px;
+    width: 192px;
+    border-radius: 8px;
+    font-size: 24px;
+    border: none;
+}
+
+.destination {
+    width: 467px;
+    height: 64px;
+}
+
+.date {
+    width: 259px;
+    height: 64px;
+}
+
+.guests {
+    width: 305px;
+    height: 64px;
+}
